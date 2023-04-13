@@ -1,0 +1,30 @@
+1. npm install yup react-hook-form
+
+2. What is Yup?:
+Yup is a JavaScript library that provides a way to create schema validation for JavaScript objects.
+In the context of React, Yup is often used to create form validations, where the user input needs 
+to be validated before being submitted to the server. Yup provides a fluent API for creating 
+schemas that can be used to validate data types, required fields, string lengths, email formats, 
+and many other types of constraints.
+
+With Yup, you can create a validation schema that defines the expected shape of the data and the 
+constraints that should be applied to each field. Once you have a schema, you can use it to 
+validate user input, and if there are errors, Yup will return an error message that can be 
+displayed to the user.
+
+Yup is often used in combination with form libraries such as Formik or React Hook Form to create 
+complex forms with validation. Overall, Yup can help improve the user experience of your 
+application by preventing invalid input from being submitted to the server and providing helpful 
+error messages to the user.
+
+3. What is React-Hook-Form (useForm):
+useForm is a custom React Hook provided by the react-hook-form library that allows you to manage 
+and handle forms in React easily. It is built with performance and accessibility in mind, and is 
+highly configurable and extensible.
+
+When you use useForm, it returns an object that contains various properties and methods that you 
+can use to manage your form, such as handleSubmit to handle form submission, register to register 
+form inputs with the library, watch to watch form input values and many others.
+
+You can also use the useForm hook with various built-in or third-party form validation libraries 
+like Yup, Joi, zod, etc., to add validation to your form and ensure that users enter valid data.
